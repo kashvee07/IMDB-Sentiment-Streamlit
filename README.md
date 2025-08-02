@@ -24,3 +24,12 @@ imdb-sentiment-app/
 ├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+
+📊 Model Details
+Algorithm: Logistic Regression
+
+Text Representation: TF-IDF (max_features=5000, stop_words='english')
+
+Training Data: IMDB 50K Movie Reviews Dataset
+
+Accuracy: ~88-90% on test set
